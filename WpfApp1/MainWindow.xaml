@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Button" HorizontalAlignment="Left" Margin="132,152,0,0" VerticalAlignment="Top"/>
+        <Border BorderBrush="Black" BorderThickness="1">
+            <ListBox d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        </Border>
+
     </Grid>
 </Window>
